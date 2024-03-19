@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 package com.englishalway.alfiwallet;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -11,5 +13,9 @@ package com.englishalway.alfiwallet;
  * @Version 1.0
  */
 public class AlfiWallet {
+    //Atributos
 
+    private double saldo;
+    private List<String> transacciones = new ArrayList<>();
+    
 }
