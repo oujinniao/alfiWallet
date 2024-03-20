@@ -19,6 +19,22 @@ public class AlfiWallet implements Wallet {
     private double saldo;
     private List<String> transacciones = new ArrayList<>();
 
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public List<String> getTransacciones() {
+        return transacciones;
+    }
+
+    public void setTransacciones(List<String> transacciones) {
+        this.transacciones = transacciones;
+    }
+
     @Override
     public double obtenerSaldo() {
         return saldo;
