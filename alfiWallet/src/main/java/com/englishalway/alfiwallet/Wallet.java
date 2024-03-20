@@ -6,8 +6,15 @@ package com.englishalway.alfiwallet;
 
 /**
  *
- * @author Pablo
+ * @author Pamela Gonzalez Juan Pablo Vásquez. Eugenio Zuñiga. Pablo Vásquez.
+ * Mauricio Vera.
+ * @Version 1.0
  */
+
 public interface Wallet {
-    
+    //Métodos
+    double obtenerSaldo();
+    void depositar(double cantidad);
+    boolean retirar(double cantidad);
+    boolean convertirMoneda(double cantidad, String desdeMoneda, String aMoneda);
 }
